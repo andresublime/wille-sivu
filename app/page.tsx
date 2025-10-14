@@ -1,6 +1,5 @@
 import Hero from '@/components/Hero';
 import About from '@/components/About';
-import ContactHeltti from '@/components/ContactHeltti';
 
 export default function Home() {
   return (
