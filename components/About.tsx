@@ -3,6 +3,56 @@
 import Image from 'next/image';
 
 export default function About() {
+  const TextContent = () => (
+    <>
+      <p>
+        Olen Ville Huuskonen ja tarjoan psykologin
+        vastaanottoa Espoon Tapiolassa ja etävastaanottona. Ensimmäiseltä
+        ammatiltani olen teologian maisteri ja pappi.
+      </p>
+      <p>
+        Sydäntäni lähellä ovat elämänvaihekriisit, työelämän
+        kriisit, neuroepätyypillisyys, henkiseen kasvuun
+        liittyvät pohdinnat ja hengelliset murrokset sekä
+        meditaatio. Vastaanotolla voimme keskustella
+        luottamuksellisesti kaikenlaisista, myös arkaluontoisista asioista, kuten päihteiden käytöstä.
+      </p>
+      <p>
+        Löydät vastaanottoni tiedot{' '}
+        <a
+          href="https://with.heltti.fi/terapeutit/ville-huuskonen"
+          className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          täältä
+        </a>
+        .
+      </p>
+      <p>
+        Voit tutustua myös ohjattuihin meditaatioihini{' '}
+        <a
+          href="https://www.youtube.com/@willehuuskonen"
+          className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          YouTube-kanavallani
+        </a>
+        .
+      </p>
+      <a
+        href="https://with.heltti.fi/terapeutit/ville-huuskonen"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-[#c4b5a0] hover:bg-[#b5a691] text-gray-800 px-8 py-3 mt-4 md:mt-6 text-base md:text-lg transition-colors duration-200 font-semibold"
+        style={{ fontFamily: 'var(--font-nunito)' }}
+      >
+        Vastaanotto
+      </a>
+    </>
+  );
+
   return (
     <section className="bg-white">
       {/* Mobile layout: header, image, text stacked vertically */}
@@ -29,51 +79,7 @@ export default function About() {
         {/* Body text section with light background */}
         <div className="bg-[#e8e4df] text-gray-700 px-6 py-8 text-left">
           <div className="space-y-6 leading-relaxed text-xl">
-            <p>
-              Olen Ville Huuskonen ja tarjoan psykologin
-              vastaanottoa Espoon Tapiolassa ja etävastaanottona. Ensimmäiseltä
-              ammatiltani olen teologian maisteri ja pappi.
-            </p>
-            <p>
-              Sydäntäni lähellä ovat elämänvaihekriisit, työelämän
-              kriisit, neuroepätyypillisyys, henkiseen kasvuun
-              liittyvät pohdinnat ja hengelliset murrokset sekä
-              meditaatio. Vastaanotolla voimme keskustella
-              luottamuksellisesti kaikenlaisista, myös arkaluontoisista asioista, kuten päihteiden käytöstä.
-            </p>
-            <p>
-              Löydät vastaanottoni tiedot{' '}
-              <a
-                href="https://with.heltti.fi/terapeutit/ville-huuskonen"
-                className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                täältä
-              </a>
-              .
-            </p>
-            <p>
-              Voit tutustua myös ohjattuihin meditaatioihini{' '}
-              <a
-                href="https://www.youtube.com/@willehuuskonen"
-                className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                YouTube-kanavallani
-              </a>
-              .
-            </p>
-            <a
-              href="https://with.heltti.fi/terapeutit/ville-huuskonen"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#c4b5a0] hover:bg-[#b5a691] text-gray-800 px-8 py-3 mt-4 text-base md:text-lg transition-colors duration-200 font-semibold"
-              style={{ fontFamily: 'var(--font-nunito)' }}
-            >
-              Vastaanotto
-            </a>
+            <TextContent />
           </div>
         </div>
       </div>
@@ -93,51 +99,7 @@ export default function About() {
           {/* Body text section with light background */}
           <div className="bg-[#e8e4df] text-gray-700 px-10 py-12 lg:px-12 lg:py-16 flex-grow text-left">
             <div className="space-y-8 leading-relaxed text-xl">
-              <p>
-                Olen psykologi Ville Huuskonen ja tarjoan psykologin
-                vastaanottoa Espoon Tapiolassa ja etävastaanottona. Ensimmäiseltä
-                ammatiltani olen teologian maisteri ja pappi.
-              </p>
-              <p>
-                Sydäntäni lähellä ovat elämänvaihekriisit, työelämän
-                kriisit, neuroepätyypillisyys, henkiseen kasvuun
-                liittyvät pohdinnat ja hengelliset murrokset sekä
-                meditaatio. Vastaanotolla voimme keskustella
-                luottamuksellisesti kaikenlaisista, myös arkaluontoisista asioista, kuten päihteiden käytöstä.
-              </p>
-              <p>
-                Löydät vastaanottoni tiedot{' '}
-                <a
-                  href="https://with.heltti.fi/terapeutit/ville-huuskonen"
-                  className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  täältä
-                </a>
-                .
-              </p>
-              <p>
-                Voit tutustua myös ohjattuihin meditaatioihini{' '}
-                <a
-                  href="https://www.youtube.com/@willehuuskonen"
-                  className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  YouTube-kanavallani
-                </a>
-                .
-              </p>
-              <a
-                href="https://with.heltti.fi/terapeutit/ville-huuskonen"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#c4b5a0] hover:bg-[#b5a691] text-gray-800 px-8 py-3 mt-6 text-base md:text-lg transition-colors duration-200 font-semibold"
-                style={{ fontFamily: 'var(--font-nunito)' }}
-              >
-                Vastaanotto
-              </a>
+              <TextContent />
             </div>
           </div>
         </div>
