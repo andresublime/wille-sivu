@@ -18,7 +18,7 @@ export default function About() {
         {/* Portrait image */}
         <div className="relative h-[600px] w-full">
           <Image
-            src="/images/ville-portrait.jpg"
+            src="/images/Ville_updated.png"
             alt="Ville Huuskonen - Psykologi"
             fill
             className="object-cover"
@@ -146,7 +146,7 @@ export default function About() {
         <div className="relative h-full min-h-[800px] flex items-center justify-center p-8" style={{ backgroundColor: 'rgb(232, 228, 223)' }}>
           <div className="relative w-full h-full">
             <Image
-              src="/images/ville-portrait.jpg"
+              src="/images/Ville_updated.png"
               alt="Ville Huuskonen - Psykologi"
               fill
               className="object-contain"
