@@ -24,7 +24,7 @@ export default function Hero() {
             Psykologipalvelu<br />Ville Huuskonen
           </h1>
           <p className="subtitle text-gray-700 mb-6 md:mb-12 leading-relaxed">
-            Psykologin vastaanottoa Espoon Tapiolassa ja etänä. Tutustu vastaanottoon!
+            Psykologin vastaanottoa Espoon Tapiolassa ja etänä.
           </p>
           <a
             href="https://with.heltti.fi/terapeutit/ville-huuskonen"
