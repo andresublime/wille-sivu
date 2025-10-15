@@ -22,7 +22,7 @@ export default function About() {
             alt="Ville Huuskonen - Psykologi"
             fill
             className="object-cover"
-            style={{ objectPosition: 'center top' }}
+            style={{ objectPosition: 'center 30%' }}
           />
         </div>
 
@@ -30,7 +30,7 @@ export default function About() {
         <div className="bg-[#e8e4df] text-gray-700 px-6 py-8 text-left">
           <div className="space-y-6 leading-relaxed text-xl">
             <p>
-              Olen psykologi Ville Huuskonen ja tarjoan psykologin
+              Olen Ville Huuskonen ja tarjoan psykologin
               vastaanottoa Espoon Tapiolassa ja etävastaanottona. Ensimmäiseltä
               ammatiltani olen teologian maisteri ja pappi.
             </p>
@@ -143,16 +143,14 @@ export default function About() {
         </div>
 
         {/* Right column - Image */}
-        <div className="relative h-full min-h-[800px] flex items-center justify-center p-8" style={{ backgroundColor: 'rgb(232, 228, 223)' }}>
-          <div className="relative w-full h-full">
-            <Image
-              src="/images/Ville_updated.png"
-              alt="Ville Huuskonen - Psykologi"
-              fill
-              className="object-contain"
-              style={{ objectPosition: 'center center' }}
-            />
-          </div>
+        <div className="relative h-full min-h-[800px]" style={{ backgroundColor: 'rgb(232, 228, 223)' }}>
+          <Image
+            src="/images/Ville_updated.png"
+            alt="Ville Huuskonen - Psykologi"
+            fill
+            className="object-cover"
+            style={{ objectPosition: 'center 30%' }}
+          />
         </div>
       </div>
     </section>
