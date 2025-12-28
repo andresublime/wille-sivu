@@ -20,7 +20,7 @@ export default function About() {
       <p>
         Löydät vastaanottoni tiedot{' '}
         <a
-          href="https://with.heltti.fi/terapeutit/ville-huuskonen"
+          href="https://www.terveystalo.com/fi/asiantuntijat/h/ville-huuskonen"
           className="underline text-[#5a4a3a] hover:text-[#3a2a1a] transition-colors font-medium"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,7 +42,7 @@ export default function About() {
         .
       </p>
       <a
-        href="https://with.heltti.fi/terapeutit/ville-huuskonen"
+        href="https://www.terveystalo.com/fi/asiantuntijat/h/ville-huuskonen"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-[#c4b5a0] hover:bg-[#b5a691] text-gray-800 px-8 py-3 mt-4 md:mt-6 text-base md:text-lg transition-colors duration-200 font-semibold"

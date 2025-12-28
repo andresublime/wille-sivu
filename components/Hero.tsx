@@ -27,7 +27,7 @@ export default function Hero() {
             Psykologin vastaanottoa Espoon Tapiolassa ja etänä.
           </p>
           <a
-            href="https://with.heltti.fi/terapeutit/ville-huuskonen"
+            href="https://www.terveystalo.com/fi/asiantuntijat/h/ville-huuskonen"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[#c4b5a0] hover:bg-[#b5a691] text-gray-800 px-8 py-3 text-base md:text-lg transition-colors duration-200 font-semibold"
